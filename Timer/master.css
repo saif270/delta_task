@@ -1,0 +1,79 @@
+body
+{
+  text-align: center;
+  color:rgb(40, 9, 48);
+  background-image: url('clock5.jpg');
+
+  font-size: 20px;
+  background-size: 1350px;
+  color: rgb(31, 74, 203);
+  border: 10px outset rgb(192, 7, 238);
+}
+
+
+
+#timerCompleteGIF
+{
+  display: none;
+  /*display: inline;*/
+}
+.TimerControls
+{
+  display: inline-block;
+}
+.timerBtn
+{
+  outline: none;
+  position: relative;
+  text-align: center;
+  border: 3px inset rgb(198, 19, 19);
+  background-color: blue;
+  padding: 10px;
+  width: 110px;
+}
+
+#Set_Timer
+{
+  outline: none;
+  position: relative;
+  text-align: center;
+  border: 3px inset rgb(198, 19, 19);
+  background-color: blue;
+  padding: 10px;
+  width: 110px;
+}
+#Set_Timer:hover
+{
+  transition: ease 0.5s;
+  background-color: green;
+}
+
+.Counter
+{
+  color: #000;
+  font-weight: bolder;
+  background-image: url('clock3.jpg');
+  background-size: 40px 60px;
+  border: 5px outset rgb(41, 36, 38);
+  border-radius: 50px;
+  padding: 20px;
+  display: inline-block;
+}
+.ModeOfTime
+{
+  padding: 3px;
+  border: 5px outset rgb(199, 4, 4);
+  display: inline-block;
+  width: 70px;
+  margin-left: 30px;
+}
+.Forms
+{
+  margin-left: 10px;
+}
+
+.timerBtn:hover
+{
+  transition: ease 0.5s;
+  background-color: red;
+}

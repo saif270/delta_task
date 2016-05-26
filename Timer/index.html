@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="master.css">
+    <title>Delta Assignment 1</title>
+</head>
+<body>
+
+    <div class="Title">
+      <h1><u>CountDown Timer</u></h1>
+    </div>
+    <img src="clock4.gif" id="timerCompleteGIF"/>
+    <!--this timercontrolpackage is the overall class for everything  -->
+    <div class="TimerCompletePackage">
+      <!--Timer Controls is the class for all the output buttons only -->
+       <div class="TimerControls">
+        <button type="button" value="Submit" class="timerBtn" id="Start_Timer"><strong>Start Timer</strong></button>
+        <button type="button" value="Submit" class="timerBtn" id="Pause_Timer"><strong>Pause Timer</strong></button>
+        <button type="button" value="Reset" class="timerBtn" id="Reset_Timer"><strong>Reset Timer</strong></button>
+      </div>
+      <div class="Forms">
+        <form>
+          Input Days:
+          <input type="text" value="0" id="DaysInputId">
+
+          Input Hours:
+          <input type="text" value="0" id="HoursInputId">
+
+          Input Minutes:
+          <input type="text" value="0" id="MinutesInputId">
+
+          Input Seconds:
+          <input type="text" value="0" id="SecondsInputId"><br>
+
+        </form>
+      </div>
+      <input type="button" value="Accept Values" id="Set_Timer">
+      <!--Timer Layout is the parent class for the output interface only this includes the classes counter modesoftime and timersetup  -->
+      <div class="TimerLayout">
+        <!--timer setup is the parent class that has all the output interfaces for the counter and mode of time. -->
+        <div class="TimerSetup">
+          <div class="Counter" id="dayDisplayID">
+            0
+          </div>
+          <div class="ModeOfTime">
+            <strong>Days</strong>
+          </div>
+        </div>
+        <div class="TimerSetup">
+          <div class="Counter" id="hourDisplayID">
+            0
+          </div>
+          <div class="ModeOfTime">
+            <strong>Hours</strong>
+          </div>
+        </div>
+        <div class="TimerSetup">
+          <div class="Counter" id="minuteDisplayID">
+           0
+          </div>
+          <div class="ModeOfTime">
+            <strong>Minutes</strong>
+          </div>
+        </div>
+        <div class="TimerSetup">
+          <div class="Counter" id="secondsDisplayID">
+           0
+          </div>
+          <div class="ModeOfTime">
+            <strong>Seconds</strong>
+          </div>
+        </div>
+
+      </div>
+
+    </div>
+    <script type="text/javascript" src="timerScript.js">
+    </script>
+</body>
+</html>
